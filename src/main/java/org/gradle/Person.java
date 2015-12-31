@@ -1,5 +1,8 @@
 package org.gradle;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.commons.collections.list.GrowthList;
 
 public class Person {
@@ -11,6 +14,14 @@ public class Person {
     }
     
     public String getName() {
+    	List<String> list = new ArrayList<>();
+    	switch ("ssss") {
+		case "1111":
+			break;
+		default:
+			break;
+		}
         return name;
     }
+
 }
